@@ -6,16 +6,17 @@
 2. optimize build time.
 3. manual port mapping
 
-- i. single port
-- docker run -it -p host:local projectname
-- ii. muliple ports
-- docker run -it -p host:local -p host:local -p host:local -p host:local projectname
+- i. single port.
+  - docker run -it -p host:local projectname
+- ii. muliple ports.
+  - docker run -it -p host:local -p host:local -p host:local -p host:local projectname
 - iii. dynamic port mapping
   in the Dockerfile EXPOSE local port.
   - docker run -it -P projectname
 
-4. cmd docker run -itd -P --rm projectname
-   i. -i (Interactive):
+4. cmd docker run -itd -P --rm projectname.
+
+- i. -i (Interactive):
 
 - Keeps STDIN (standard input) open, allowing the container to accept input even if not attached to a terminal.
   This is useful for interactive applications or when you might attach to the container later (e.g., with docker attach).
