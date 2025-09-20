@@ -1,6 +1,5 @@
 /node_modules
 /.prettierignore
 /.prettierrc
-package.json
 /pnpm-lock.yaml
 Dockerfile
