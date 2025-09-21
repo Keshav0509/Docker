@@ -10,6 +10,11 @@
 5. docker container containername/containerid
 6. docker container rm containerid
 7. docker image rm imagename
+<!-- publish local images to docker hub -->
+8. docker login
+9. docker tag my-image username/my-repo:latest
+10. docker push username/my-repo:latest
+
 
 ---
 * Production level command.
