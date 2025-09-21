@@ -7,7 +7,7 @@
 2. docker ps
 3. docker images
 4. docker run -it imagename
-5. docker container imagename/imageid
+5. docker container containername/containerid
 6. docker container rm containerid
 7. docker image rm imagename
 
